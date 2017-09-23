@@ -1,4 +1,4 @@
-__author__ == 'Aabir'
+__author__ = 'Aabir'
 
 a = [1,3,5,7,9,11,13, 15]
 c = 0
