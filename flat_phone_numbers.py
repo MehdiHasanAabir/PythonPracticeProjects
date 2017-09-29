@@ -31,7 +31,7 @@ def main():
     flat_lebels = flat_num() 
     complete_list = intercom(flat_lebels)
     
-    query = input('Enter flat number: ')
+    query = input('Enter flat number: ').upper()
     print('The intercom number of your chosen flat is: {}'.format(complete_list[query]))
     
  
