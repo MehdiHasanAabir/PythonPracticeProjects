@@ -19,9 +19,9 @@ def intercom(fnum):
         interlist.append(number)
 	
     '''will create a dictionary of flat and numbers'''
-    combdict = {}
+    result = {}
     for i in range(40): 
-        combdict.update({fnum[i] : interlist[i]})
+        result.update({fnum[i] : interlist[i]})
     return combdict
          
     
@@ -29,9 +29,9 @@ def intercom(fnum):
 			
 def main():		
     flat_lebels = flat_num() 
-    b = intercom(flat_lebels)
+    complete_list = intercom(flat_lebels)
     
-    query = str(input('Enter flat number: '))
+    query = input('Enter flat number: ')
     print('The intercom number of your chosen flat is: {}'.format(b[query]))
     
  
