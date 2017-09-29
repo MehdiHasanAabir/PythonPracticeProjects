@@ -22,7 +22,7 @@ def intercom(fnum):
     result = {}
     for i in range(40): 
         result.update({fnum[i] : interlist[i]})
-    return combdict
+    return result
          
     
 			
@@ -32,7 +32,7 @@ def main():
     complete_list = intercom(flat_lebels)
     
     query = input('Enter flat number: ')
-    print('The intercom number of your chosen flat is: {}'.format(b[query]))
+    print('The intercom number of your chosen flat is: {}'.format(complete_list[query]))
     
  
 if __name__ == '__main__': 
