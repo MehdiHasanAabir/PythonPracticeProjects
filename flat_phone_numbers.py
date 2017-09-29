@@ -34,6 +34,6 @@ def main():
     query = str(input('Enter flat number: '))
     print('The intercom number of your chosen flat is: {}'.format(b[query]))
     
-	
+ 
 if __name__ == '__main__': 
 	main()
